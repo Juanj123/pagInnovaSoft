@@ -2,6 +2,7 @@ body{
 font-family: 'Heebo', sans-serif;    
 margin: 0;    
 }
+
 .sidebar{
 position: absolute;    
 width: 250px;    
@@ -65,4 +66,52 @@ color: #3c92ca;
 }
 .abrir{
     transform: translateX(250px);
+}
+.fondo1{
+  padding: 0;
+  margin: 0;
+  height: 95%;
+  width: 95%;
+  position: absolute;
+      
+}
+.logo{
+   position: absolute;
+    margin-left: -300px;
+    margin-top: -370px;
+}
+#textoDesarrollo{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 300px;
+    font-family: 'Righteous', cursive;
+    font-size: 50px;   
+}
+#linea{
+    position: absolute;
+    background: #3c92ca;
+    height: 600px;
+    width: 30px;
+    transform: rotate(0deg);
+    margin-left: 600px;
+    margin-top: -40px;
+    
+}
+
+.texto1 ul{
+     list-style: none;
+    padding: 0;
+    margin: 0;  
+}
+
+.texto1 a {
+    display: block;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    
+    text-decoration: none;
 }
