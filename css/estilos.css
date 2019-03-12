@@ -110,6 +110,10 @@ color: #3c92ca;
     text-decoration: none;
 }
 
+a img {
+        margin-top: -15px;
+}
+
 
 
 @keyframes desvanecer{
