@@ -3,17 +3,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+
      <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
     <title></title>
 </head>
 
 <body>
-<div class="row">
-<!--Menu-->    
-<div class="sidebar">
+    
+    <header>
+   <!-- <div class="sidebar">
 <h2><img src="img/mundial.png" height="50px" id="logoMenu"> Menu</h2>
 <ul>
 <li><a href="">Inicio</a></li>
@@ -21,12 +27,64 @@
 <li><a href="">Viajes Proximos</a></li>
 <li><a href="">Acerca de</a></li>
    </ul>     
-</div>
-</div>
-<div class="contenido row">
-<span class="glyphicon glyphicon-menu-hamburger menu-bar" aria-hidden="true"></span>
+</div> -->
+    <!--<nav class="navbar navbar-default">
+     
+        <div class="navbar-header col-md-12">
+         
+            <span class="glyphicon glyphicon-menu-hamburger menu-bar" aria-hidden="true" data-target="#navbar1"></span>
+            <a href="" class="navbar-brand"><img alt="brand" src="img/logoInnova.png" height="35px"></a>
+         </div>
+         
+    </nav>
+-->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>        
+    </header>  
+<div class="container">
+<!--<div class="contenido row">
+  
+
+    
 <img src="img/fondo1.png" class="fondo1">
-<!--<img src="img/logoInnova.png" class="logo">-->
+<img src="img/logoInnova.png" class="logo">
 <h4 id="textoDesarrollo">Desarrollo de </h4>
 <hr id="linea">
 <div class="divTexto">    
@@ -36,11 +94,19 @@
 <li class="texto1"><a>Aplicaciones Moviles</a></li>    
 </ul>    
 </div>    
-</div>    
-   
-       
+</div>   
+-->
+</div>   
+ <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js"></script>       
 <script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
 <script src="js/menu.js"></script>     
 </body>
 </html>
